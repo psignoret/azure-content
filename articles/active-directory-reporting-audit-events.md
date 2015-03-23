@@ -63,4 +63,20 @@
 
 ### Audited Update User event properties
 
+| Property				| Description	|
+| ---------------------------------	| ---------	|
+| AccountEnabled			|		|
+| AlernativeSecurityId			|		|
+| AssignedLicense			|		|
+| AssignedPlan				|		|
+| LicenseAssignmentDetail		|		|
+| Mobile				|		|
+| OtherMail				|		|
+| OtherMobile				|		|
+| StrongAuthenticationMethod		|		|
+| StrongAuthenticationPhoneAppDetail	|		|
+| StrongAuthenticationRequirement	|		|
+| StrongAuthenticationUserDetails	|		|
+| TelephoneNumber			|		|
+
 ## Footer
