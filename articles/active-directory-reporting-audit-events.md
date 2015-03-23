@@ -22,7 +22,9 @@
 
 ## Audit Report Events
 
-|	Events 					| 	Description <!-- past tense! -->					|
+<!--- audit event descriptions should be in the past tense --->
+
+|	Events 					| 	Description					|
 |	------------------------------		|	-------									|
 |	Add User				|	Added a user to the directory.						|
 |	Delete User				|	Deleted a user from the directory.					|
