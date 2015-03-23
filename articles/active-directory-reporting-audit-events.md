@@ -22,22 +22,22 @@
 
 ## Audit Report Events
 
-|	Events 					| 	Description	|
-|	------------------------------		|	-------		|
-|	Add User				|			|
-|	Delete User				|			|
-|	Set license properties			|			|
-|	Reset user password			|			|
-|	Change user password			|			|
-|	Change user license			|			|
-|	Update user				|			|
+|	Events 					| 	Description <!-- past tense! -->					|
+|	------------------------------		|	-------									|
+|	Add User				|	Added a user to the directory.						|
+|	Delete User				|	Deleted a user from the directory.					|
+|	Set license properties			|										|
+|	Reset user password			|	Reset the password for a user in the directory.				|
+|	Change user password			|	Changed the password for a user in the directory.			|
+|	Change user license			|	Changed the license assigned to a user in the directory.		|
+|	Update user				|	Updated a user in the directory.					|
 |	Add role member to Role			|			|
 |	Remove role member from Role		|			|
 |	Set Company contact information		|			|
 |	Add partner to company			|			|
 |	Remove Partner from company		|			|
-|	Add service principal			|			|
-|	Remove service principal		|			|
+|	Add service principal			|	Added a service principal to the directory.				|
+|	Remove service principal		|	Removed a service principal from the directory.				|
 |	Add service principal credentials	|			|
 |	Remove service principal credentials	|			|
 |	Add domain to company			|			|
@@ -50,13 +50,13 @@
 |	Add delegation entry			|			|
 |	Set delegation entry			|			|
 |	Remove delegation entry			|			|
-|	Set DirSyncEnabled flag on company	|			|
+|	Set DirSyncEnabled flag on company	|	Set the property that enables a directory for Azure AD Sync.		|
 |	Set Password Policy			|			|
 |	Restore Application			|			|
 |	Set Company Information			|			|
 |	Set String Auth Policy			|			|
 |	Promote tenant to partner		|			|
-|	Set force change user password		|			|
+|	Set force change user password		|	Set the property that forces a user to change their password on login.	|
 
 
 ### Audited Update User event properties
