@@ -60,6 +60,14 @@
 |	Promote tenant to partner		|			|
 |	Set force change user password		|	Set the property that forces a user to change their password on login.	|
 
+### Properties included with each audit event
+
+| Property	| Description								|
+| ------	| ------								|		
+| Date and Time	| The date and time that the audit event occured			|
+| Actor		| The user or service principal that performed the action		|
+| Action	| The action that was performed						|
+| Target	| The user or service principal that the action was performed on	|
 
 ### Audited Update User event properties
 
