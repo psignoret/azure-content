@@ -2,17 +2,17 @@
    pageTitle="Azure Active Directory Audit Report Events" 
    description="Audited events that are available for viewing and downloading from your Azure Active Directory" 
    services="active-directory" 
-   documentationCenter="dev-center-name" 
+   documentationCenter="" 
    authors="kenhoff" 
-   manager="ilanas" 
+   manager="?" 
    editor=""/>
 
 <tags
    ms.service="active-directory"
-   ms.devlang="no"
+   ms.devlang="na"
    ms.topic="article"
    ms.tgt_pltfrm="na"
-   ms.workload="required" 
+   ms.workload="identity" 
    ms.date="03/23/2015"
    ms.author="kenhoff"/>
 
