@@ -18,8 +18,6 @@
 
 # Azure Active Directory Audit Report Events
 
-## Header
-
 Azure Active Directory Audit Reports helps customers identify privileged actions that occurred in their Azure Active Directory tenant. Privileged actions include elevation changes (for example, role creation or password resets), changing policy configurations (for example password policies), or changes to tenant configuration (for example, changes to domain federation settings). The reports provide the audit record for the event name, the actor who performed the action, the target resource affected by the change, the date and time (in UTC). Customers are able to retrieve the list of audit events for their Azure Active Directory tenant via the Azure Management Portal.  
 
 ## Audit Report Events
@@ -88,7 +86,5 @@ Azure Active Directory Audit Reports helps customers identify privileged actions
 | StrongAuthenticationRequirement	|		|
 | StrongAuthenticationUserDetails	|		|
 | TelephoneNumber			| The user's telephone number.		|
-
-## Footer
 
 Audit records are a required control for many compliance regulations. For customers using the Azure Active Directory Audit Report to meet their compliance regulations, it is recommended that the customer submit a copy of this help topic with the copy of the customer’s exported audit report to help explain the report details. If the auditor would like to understand the compliance regulations that Azure currently meets, direct the auditor to the [Compliance page](http://azure.microsoft.com/en-us/support/trust-center/compliance/) of the Microsoft Azure Trust Center.
