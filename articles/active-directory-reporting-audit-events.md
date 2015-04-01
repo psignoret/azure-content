@@ -81,9 +81,9 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Mobile				| The user's mobile phone.					|
 | OtherMail				| The user's alternate email address.				|
 | OtherMobile				| The user's alternate mobile phone.				|
-| StrongAuthenticationMethod		|		|
-| StrongAuthenticationPhoneAppDetail	|		|
-| StrongAuthenticationRequirement	|		|
+| StrongAuthenticationMethod		| Default method of verification used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from mobile app		|
+| StrongAuthenticationPhoneAppDetail	| Contains the device token for the user's registered mobile app.		|
+| StrongAuthenticationRequirement	| If Multi-Factor Authentication is disabled, enabled, or enforced for this user.		|
 | StrongAuthenticationUserDetails	|		|
 | TelephoneNumber			| The user's telephone number.		|
 
