@@ -24,19 +24,19 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 
 <!--- audit event descriptions should be in the past tense --->
 
-| Events 					| Event Description								|
-| ------------------------------		| -------									|
+| Events 				| Event Description								|
+| ------------------------------	| -------									|
 | Add User				| Added a user to the directory.						|
 | Delete User				| Deleted a user from the directory.					|
-| Set license properties			| 									|
+| Set license properties		| 									|
 | Reset user password			| Reset the password for a user in the directory.				|
 | Change user password			| Changed the password for a user in the directory.			|
 | Change user license			| Changed the license assigned to a user in the directory.		|
 | Update user				| Updated a user in the directory.					|
-| Add role member to Role			| Add a user to an Administrator role.		|
+| Add role member to Role		| Add a user to an Administrator role.		|
 | Remove role member from Role		| Remove a user from an Administrator role.		|
-| Set Company contact information		| Set company-level contact preferences. This includes email addresses for marketing, as well as technical notifications about Microsoft Online Services.			|
-| Add partner to company			| Added a partner to the directory. used by partners to set partner-specific properties. These properties can be viewed by all tenants to whom the partner has access.			|
+| Set Company contact information	| Set company-level contact preferences. This includes email addresses for marketing, as well as technical notifications about Microsoft Online Services.			|
+| Add partner to company		| Added a partner to the directory. used by partners to set partner-specific properties. These properties can be viewed by all tenants to whom the partner has access.			|
 | Remove Partner from company		| Removed a partner from the directory.		|
 | Add service principal			| Added a service principal to the directory.				|
 | Remove service principal		| Removed a service principal from the directory.				|
@@ -51,14 +51,14 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Verify email verified domain		| Verified a domain on the directory using email verification.		|
 | Add delegation entry			| Added a delegation entry to the directory.		|
 | Set delegation entry			| Update a delegation entry in the directory.		|
-| Remove delegation entry			| Removed a delegation entry from the directory.		|
+| Remove delegation entry		| Removed a delegation entry from the directory.		|
 | Set DirSyncEnabled flag on company	| Set the property that enables a directory for Azure AD Sync.		|
 | Set Password Policy			| Set length and character constraints for user passwords.		|
 | Restore Application			| 		|
-| Set Company Information			| Updated the company-level information. See the [Get-MsolCompanyInformation](https://msdn.microsoft.com/en-us/library/azure/dn194126.aspx) for more details.		|
-| Set String Auth Policy			|			|
+| Set Company Information		| Updated the company-level information. See the [Get-MsolCompanyInformation](https://msdn.microsoft.com/en-us/library/azure/dn194126.aspx) for more details.		|
+| Set String Auth Policy		|			|
 | Promote tenant to partner		|			|
-| Set force change user password		| Set the property that forces a user to change their password on login.	|
+| Set force change user password	| Set the property that forces a user to change their password on login.	|
 
 ### Properties included with each audit event
 
@@ -80,10 +80,10 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Mobile				| The user's mobile phone.																	|
 | OtherMail				| The user's alternate email address.																|
 | OtherMobile				| The user's alternate mobile phone.																|
-| StrongAuthenticationMethod		| Default method of verification used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.				|
+| StrongAuthenticationMethod		| A list of user-enabled verification methods used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.		|
 | StrongAuthenticationPhoneAppDetail	| Contains the device token for the user's registered mobile app.												|
 | StrongAuthenticationRequirement	| If Multi-Factor Authentication is enforced, enabled, or disabled for this user.										|
-| StrongAuthenticationUserDetails	| The user’s phone number, alternative phone number and email address used for Multi-Factor Authentication and password reset verification.					|
+| StrongAuthenticationUserDetails	| The user’s phone number, alternative phone number and email address used for Multi-Factor Authentication and password reset verification.			|
 | TelephoneNumber			| The user's telephone number.																	|
 
 Audit records are a required control for many compliance regulations. For customers using the Azure Active Directory Audit Report to meet their compliance regulations, it is recommended that the customer submit a copy of this help topic with the copy of the customer’s exported audit report to help explain the report details. If the auditor would like to understand the compliance regulations that Azure currently meets, direct the auditor to the [Compliance page](http://azure.microsoft.com/en-us/support/trust-center/compliance/) of the Microsoft Azure Trust Center.
