@@ -35,8 +35,8 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 |	Update user				|	Updated a user in the directory.					|
 |	Add role member to Role			|			|
 |	Remove role member from Role		|			|
-|	Set Company contact information		|			|
-|	Add partner to company			|			|
+|	Set Company contact information		| set company-level contact preferences. This includes email addresses for marketing and technical notifications about Microsoft Online Services.			|
+|	Add partner to company			| used by partners to set partner-specific properties. These properties can be viewed by all tenants to whom the partner has access.			|
 |	Remove Partner from company		|			|
 |	Add service principal			|	Added a service principal to the directory.				|
 |	Remove service principal		|	Removed a service principal from the directory.				|
@@ -45,7 +45,7 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 |	Add domain to company			|	Added a domain to the directory.		|
 |	Remove domain from company		|	Removed a domain from the directory.		|
 |	Update domain				|	Updated a domain on the directory.		|
-|	Set domain authentication		|			|
+|	Set domain authentication		| change the default domain setting for the company			|
 |	Set federation settings on domain	|			|
 |	Verify domain				|	Verified a domain on the directory.		|
 |	Verify email verified domain		|	Verified a domain on the directory using email verification.		|
