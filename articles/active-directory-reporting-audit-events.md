@@ -74,7 +74,6 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Attribute 				| Description	|
 | ---------------------------------	| ---------	|
 | AccountEnabled			| The user is not blocked from signing into Azure AD.														|
-| AlernativeSecurityId			| 																				|
 | AssignedLicense			| All licenses that have been assigned to the user.														|
 | AssignedPlan				| Service plans resulting from the licenses assigned to the user.												|
 | LicenseAssignmentDetail		| Details on licenses assigned to the user. For instance, if group-based licensing was involved, this would include the group that granted the license.		|
