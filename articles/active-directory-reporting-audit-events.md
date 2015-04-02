@@ -24,41 +24,38 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 
 <!--- audit event descriptions should be in the past tense --->
 
-| Events 				| Event Description								|
-| ------------------------------	| -------									|
-| Add User				| Added a user to the directory.						|
-| Delete User				| Deleted a user from the directory.					|
-| Set license properties		| Set the license properties for a user in the directory.								|
-| Reset user password			| Reset the password for a user in the directory.				|
-| Change user password			| Changed the password for a user in the directory.			|
-| Change user license			| Changed the license assigned to a user in the directory.		|
-| Update user				| Updated a user in the directory.					|
-| Add role member to Role		| Add a user to an Administrator role.		|
-| Remove role member from Role		| Remove a user from an Administrator role.		|
+| Events 				| Event Description																				|
+| ------------------------------	| -------																					|
+| Add User				| Added a user to the directory.																		|
+| Delete User				| Deleted a user from the directory.																		|
+| Set license properties		| Set the license properties for a user in the directory.															|
+| Reset user password			| Reset the password for a user in the directory.																|
+| Change user password			| Changed the password for a user in the directory.																|
+| Change user license			| Changed the license assigned to a user in the directory.															|
+| Update user				| Updated a user in the directory.																		|
+| Add role member to Role		| Add a user to an Administrator role.																		|
+| Remove role member from Role		| Remove a user from an Administrator role.																	|
 | Set Company contact information	| Set company-level contact preferences. This includes email addresses for marketing, as well as technical notifications about Microsoft Online Services.			|
-| Add partner to company		| Added a partner to the directory. used by partners to set partner-specific properties. These properties can be viewed by all tenants to whom the partner has access.			|
-| Remove Partner from company		| Removed a partner from the directory.		|
-| Add service principal			| Added a service principal to the directory.				|
-| Remove service principal		| Removed a service principal from the directory.				|
-| Add service principal credentials	| Added credentials to a service principal.		|
-| Remove service principal credentials	| Removed credentials from a service principal.		|
-| Add domain to company			| Added a domain to the directory.		|
-| Remove domain from company		| Removed a domain from the directory.		|
-| Update domain				| Updated a domain on the directory.		|
-| Set domain authentication		| change the default domain setting for the company			|
-| Set federation settings on domain	| Updated the federation settings for a domain.		|
-| Verify domain				| Verified a domain on the directory.		|
-| Verify email verified domain		| Verified a domain on the directory using email verification.		|
-| Add delegation entry			| Added a delegation entry to the directory.		|
-| Set delegation entry			| Update a delegation entry in the directory.		|
-| Remove delegation entry		| Removed a delegation entry from the directory.		|
-| Set DirSyncEnabled flag on company	| Set the property that enables a directory for Azure AD Sync.		|
-| Set Password Policy			| Set length and character constraints for user passwords.		|
-| Restore Application			| 		|
-| Set Company Information		| Updated the company-level information. See the [Get-MsolCompanyInformation](https://msdn.microsoft.com/en-us/library/azure/dn194126.aspx) PowerShell cmdlet for more details.		|
-| Set String Auth Policy		|			|
-| Promote tenant to partner		|			|
-| Set force change user password	| Set the property that forces a user to change their password on login.	|
+| Add partner to company		| Added a partner to the directory.																		|
+| Remove Partner from company		| Removed a partner from the directory.																		|
+| Add service principal			| Added a service principal to the directory.																	|
+| Remove service principal		| Removed a service principal from the directory.																|
+| Add service principal credentials	| Added credentials to a service principal.																	|
+| Remove service principal credentials	| Removed credentials from a service principal.																	|
+| Add domain to company			| Added a domain to the directory.																		|
+| Remove domain from company		| Removed a domain from the directory.																		|
+| Update domain				| Updated a domain on the directory.																		|
+| Set domain authentication		| change the default domain setting for the company																|
+| Set federation settings on domain	| Updated the federation settings for a domain.																	|
+| Verify domain				| Verified a domain on the directory.																		|
+| Verify email verified domain		| Verified a domain on the directory using email verification.															|
+| Add delegation entry			| Added a delegation entry to the directory.																	|
+| Set delegation entry			| Update a delegation entry in the directory.																	|
+| Remove delegation entry		| Removed a delegation entry from the directory.																|
+| Set DirSyncEnabled flag on company	| Set the property that enables a directory for Azure AD Sync.															|
+| Set Password Policy			| Set length and character constraints for user passwords.															|
+| Set Company Information		| Updated the company-level information. See the [Get-MsolCompanyInformation](https://msdn.microsoft.com/en-us/library/azure/dn194126.aspx) PowerShell cmdlet for more details.	|
+| Set force change user password	| Set the property that forces a user to change their password on login.													|
 
 <!--- 
 
