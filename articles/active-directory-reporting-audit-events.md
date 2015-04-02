@@ -54,11 +54,21 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Remove delegation entry		| Removed a delegation entry from the directory.		|
 | Set DirSyncEnabled flag on company	| Set the property that enables a directory for Azure AD Sync.		|
 | Set Password Policy			| Set length and character constraints for user passwords.		|
-<!--- | Restore Application			| 		| --->
+| Restore Application			| 		|
 | Set Company Information		| Updated the company-level information. See the [Get-MsolCompanyInformation](https://msdn.microsoft.com/en-us/library/azure/dn194126.aspx) PowerShell cmdlet for more details.		|
-<!--- | Set String Auth Policy		|			| --->
-<!--- | Promote tenant to partner		|			| --->
+| Set String Auth Policy		|			|
+| Promote tenant to partner		|			|
 | Set force change user password	| Set the property that forces a user to change their password on login.	|
+
+<!--- 
+
+List of events that still need descriptions:
+
+Restore Application
+Set String Auth Policy
+Promote tenant to partner
+
+--->
 
 ### Properties included with each audit event
 
