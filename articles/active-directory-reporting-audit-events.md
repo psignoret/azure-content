@@ -73,18 +73,18 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 
 | Attribute 				| Description	|
 | ---------------------------------	| ---------	|
-| AccountEnabled			| The user is not blocked from signing into Azure AD.		|
-| AlernativeSecurityId			| 								|
-| AssignedLicense			| All licenses that have been assigned to the user.		|
-| AssignedPlan				| Service plans resulting from the licenses assigned to the user.		|
+| AccountEnabled			| The user is not blocked from signing into Azure AD.														|
+| AlernativeSecurityId			| 																				|
+| AssignedLicense			| All licenses that have been assigned to the user.														|
+| AssignedPlan				| Service plans resulting from the licenses assigned to the user.												|
 | LicenseAssignmentDetail		| Details on licenses assigned to the user. For instance, if group-based licensing was involved, this would include the group that granted the license.		|
-| Mobile				| The user's mobile phone.					|
-| OtherMail				| The user's alternate email address.				|
-| OtherMobile				| The user's alternate mobile phone.				|
-| StrongAuthenticationMethod		| Default method of verification used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from mobile app		|
-| StrongAuthenticationPhoneAppDetail	| Contains the device token for the user's registered mobile app.		|
-| StrongAuthenticationRequirement	| If Multi-Factor Authentication is disabled, enabled, or enforced for this user.		|
-| StrongAuthenticationUserDetails	|		|
-| TelephoneNumber			| The user's telephone number.		|
+| Mobile				| The user's mobile phone.																	|
+| OtherMail				| The user's alternate email address.																|
+| OtherMobile				| The user's alternate mobile phone.																|
+| StrongAuthenticationMethod		| Default method of verification used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from mobile app.				|
+| StrongAuthenticationPhoneAppDetail	| Contains the device token for the user's registered mobile app.												|
+| StrongAuthenticationRequirement	| If Multi-Factor Authentication is disabled, enabled, or enforced for this user.										|
+| StrongAuthenticationUserDetails	| The user’s phone number, alternative phone number and email address used for multi-factor and password reset verification.					|
+| TelephoneNumber			| The user's telephone number.																	|
 
 Audit records are a required control for many compliance regulations. For customers using the Azure Active Directory Audit Report to meet their compliance regulations, it is recommended that the customer submit a copy of this help topic with the copy of the customer’s exported audit report to help explain the report details. If the auditor would like to understand the compliance regulations that Azure currently meets, direct the auditor to the [Compliance page](http://azure.microsoft.com/en-us/support/trust-center/compliance/) of the Microsoft Azure Trust Center.
