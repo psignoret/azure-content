@@ -87,7 +87,7 @@ Promote tenant to partner
 | Mobile				| The user's mobile phone.																	|
 | OtherMail				| The user's alternate email address.																|
 | OtherMobile				| The user's alternate mobile phone.																|
-| StrongAuthenticationMethod		| A list of verification methods configured by the user for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.		|
+| StrongAuthenticationMethod		| A list of verification methods configured by the user for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.	|
 | StrongAuthenticationRequirement	| If Multi-Factor Authentication is enforced, enabled, or disabled for this user.										|
 | StrongAuthenticationUserDetails	| The user’s phone number, alternative phone number and email address used for Multi-Factor Authentication and password reset verification.			|
 | TelephoneNumber			| The user's telephone number.																	|
