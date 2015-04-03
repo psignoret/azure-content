@@ -78,8 +78,8 @@ Promote tenant to partner
 
 ### User attributes included in the Update User audit event
 
-| Attribute 				| Description	|
-| ---------------------------------	| ---------	|
+| Attribute 				| Description																			|
+| ---------------------------------	| ---------																			|
 | AccountEnabled			| The user is not blocked from signing into Azure AD.														|
 | AssignedLicense			| All licenses that have been assigned to the user.														|
 | AssignedPlan				| Service plans resulting from the licenses assigned to the user.												|
@@ -87,8 +87,7 @@ Promote tenant to partner
 | Mobile				| The user's mobile phone.																	|
 | OtherMail				| The user's alternate email address.																|
 | OtherMobile				| The user's alternate mobile phone.																|
-| StrongAuthenticationMethod		| A list of user-enabled verification methods used for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.		|
-| StrongAuthenticationPhoneAppDetail	| Contains the device token for the user's registered mobile app.												|
+| StrongAuthenticationMethod		| A list of verification methods configured by the user for Multi-Factor Authentication, such as Voice Call, SMS, or Verification code from a mobile app.		|
 | StrongAuthenticationRequirement	| If Multi-Factor Authentication is enforced, enabled, or disabled for this user.										|
 | StrongAuthenticationUserDetails	| The user’s phone number, alternative phone number and email address used for Multi-Factor Authentication and password reset verification.			|
 | TelephoneNumber			| The user's telephone number.																	|
